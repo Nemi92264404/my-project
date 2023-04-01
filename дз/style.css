@@ -1,0 +1,147 @@
+.main_header {
+    display: flex;
+}
+
+
+.header_logo {
+    width: 65px;
+    height: 61px;
+    left: 130px;
+    top: 9px;
+    margin-left: 130px;
+}
+
+
+.header_list {
+    display: flex;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+   top: 32px;
+   margin-right: 70px;
+   margin-left: 60px;
+}
+.header_list li {
+    margin-right: 50px;
+}
+.header_list li:last-child {
+    margin-right: 0px;
+}
+.header_list li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.header_lang {
+    display: flex;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.header_lang li {
+    margin-right: 10px;
+}
+.header_lang li:last-child {
+    margin-right: 0px; 
+}
+.header_lang li a{
+    color:rgb(7, 121, 7);
+    text-decoration: none;
+}
+
+
+.header_phone {
+   width: 20;
+   height: 20;
+}
+.heder_num {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.header_mb_phone {
+    color: black;
+    text-decoration: none;
+}
+
+.instagram.svg {
+width: 40px;
+height: 40px;
+}
+.facebook.svg {
+    width: 40px;
+    height: 40px;
+}
+.header_soc a{
+margin-right: 10px;
+}
+.header_soc a:last-child {
+    margin-right: 0px;
+}
+.header_soc {
+    margin-left: 60px;
+   margin-top: 5px;
+}
+
+
+.main_section {
+    display: flex;
+    /* height: 444px;
+    width: 544px;
+    left: 130px; */
+}
+
+
+
+
+
+ .section_img{
+    width: 760px;
+    height: 640px;
+    left: 740px;
+top: 80px;
+}
+.section_img .img.png{
+    position: absolute;
+    justify-content: center;
+}
+
+
+
+.section_text {
+width: 544px;
+height: 444px;
+top: 178px;
+margin-right: 66px;
+}
+.section_text .section_h1{
+    position: absolute;
+width: 544px;
+height: 156px;
+top: 178px;
+text-transform: uppercase;
+color: #152B29;
+margin-left: 130px;
+    }
+.section_text .section_question {
+    position: absolute;
+width: 428px;
+height: 123px;
+top: 374px;
+margin-left: 110px;
+}
+
+
+.btn_text {
+background: #E2B145;
+border-radius: 10px 0px;
+color: aliceblue;
+border:none;
+}
+.section_text .btn_text {
+    position: absolute;
+width: 227px;
+height: 52px;
+left: 130px;
+top: 570px
+}
